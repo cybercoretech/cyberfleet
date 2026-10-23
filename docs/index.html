@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#09080f">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='12' fill='%2339ff33'/%3E%3Ccircle cx='18' cy='22' r='9' fill='%23ff147f'/%3E%3Ccircle cx='84' cy='30' r='9' fill='%2300e5ff'/%3E%3Ccircle cx='70' cy='84' r='9' fill='%23ff9000'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cybercoretech.github.io/kit/v1/effects.css">
   <style>
     :root { --a1: var(--acid); --a2: var(--pink); --a3: var(--cyan); }
     .fleet { position: relative; width: min(100%, 32rem); aspect-ratio: 1; margin-inline: auto; }
@@ -139,7 +140,7 @@ omarchy plugin remove io.github.darkstardevx.cyberfleet</code></pre></div>
     (() => { const el = document.getElementById('fleetCount'); if (!el || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
       const seq = [3, 3, 4, 2, 0, 1, 3]; let i = 0; setInterval(() => { el.textContent = seq[i++ % seq.length]; }, 3000); })();
   </script>
-  <script src="app.js"></script>
+  <script src="https://cybercoretech.github.io/kit/v1/cybercore.js"></script>
   <script type="module" src="https://cybercoretech.github.io/kit/contact.js"></script>
 </body>
 </html>
